@@ -9,6 +9,19 @@
 #      term: 3 / number: 2
 #      term: 4 / number: 3
 #      term: 5 / number: 5
-#      etc.
+# 
 
+nterms = 50
+
+
+n1, n2 = 0, 1
+count = 0
+
+print("Fibonacci sequence:")
+while count < nterms:
+  print(n1)
+  nth = n1 + n2
+  n1 = n2
+  n2 = nth
+  count += 1
 # Hint: The next number is found by adding the two numbers before it
